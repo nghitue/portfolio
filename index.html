@@ -4,13 +4,9 @@
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
     <!-- if IEmeta(http-equiv='X-UA-Compatible', content='IE=edge,chrome=1')-->
     <meta http-equiv="X-UA-Compatible" content="IE=9; IE=8; IE=7; IE=EDGE">
-    <title>Hi, I'm Thuy. Nice to meet you</title>
-    <meta name="keywords" content="t_tthuy, Portfolio, Front-end, HTML, CSS, SCSS, JavaScript">
-    <meta name="description" content="Since beginning my journey as a html coder over 3 years,
-    I've done work for outsource company from Japan.
-    Building and maintaining responsive websites, perfect pixel websites, landing page,... are work daily of me.
-    I want to become Senior Frontend Software Engineer in 3 next year that reason why
-    I'm always curious, perpetually working on improving my skill everyday">
+    <title><?=SEO_TITLE?></title>
+    <meta name="keywords" content="<?=SEO_KEYWORDS?>">
+    <meta name="description" content="<?=SEO_DESCRIPTION?>">
     <meta name="format-detection" content="telephone=no">
     <meta name="viewport" content="width=device-width">
     <meta name="robots" content="INDEX,FOLLOW">
@@ -36,7 +32,7 @@
             <ul>
               <li><a href="./"><span>Home </span></a></li>
               <li><a href="#about"><span>About me</span></a></li>
-              <li><a class="logo-h" href=""><img src="./common_img/logo.svg" alt="LOGO"></a></li>
+              <li><a class="logo-h" href=""><img src="./common_img/logo.svg" alt=""></a></li>
               <li><a href="#work"><span>Work</span></a></li>
               <li><a href="#contact"><span>Contact</span></a></li>
             </ul>
@@ -249,9 +245,7 @@
             <h1 class="loadit" data-ani="fadeInUp">
                Hi, I’m <span>Thuy</span>.<br class="dissp"> Nice to meet you.<br></h1>
             <p class="text_center loadit delay2" data-ani="fadeInUp">Since beginning my journey as a html coder over 3 years, <br class="dispc">I've done work for outsource company from Japan.<br>Building and maintaining responsive websites, perfect pixel websites, landing page,... are work daily of me. <br>I want to become Senior Frontend Software Engineer in 3 next year that reason why <br> I'm always curious, perpetually working on improving my skill everyday</p>
-            <div class="btn-group loadit delay3" data-ani="fadeInUp"><a class="btn btn-hire" href="#about"><span>View my work</span></a>
-              <button class="btn btn-download" type="button"><span>Download CV</span></button>
-            </div>
+            <div class="btn-group loadit delay3" data-ani="fadeInUp"><a class="btn btn-hire" href="#about"><span>View my work</span></a><a class="btn btn-download" href="./pdf/TRANTHITHANHTHUY_FRONT-END_DEVELOPER.pdf" target="_blank"><span>Download CV</span></a></div>
           </div>
           <canvas class="background"></canvas>
         </div>
@@ -300,7 +294,7 @@
           <div class="box-bottom">
             <div class="ins">
               <div class="loadit" data-ani="fadeInLeft">
-                <figure><img src="./common_img/avatar.svg" alt="Who's this guy?"></figure>
+                <figure><img src="./common_img/avatar.svg" alt=""></figure>
                 <h3 class="title">Who's this guy?</h3>
                 <p class="text">I'm a Front-End Developer in <span class="pink">Ho Chi Minh, Vietnam</span>.<br>I have serious passion for UI effects, animations and creating intuitive, dynamic user experiences.<br><a href="#contact" class="linkpage"><span class="pink">Contact me</span></a></p>
               </div>
@@ -385,18 +379,26 @@
         <div class="container">
           <h2 class="title-page loadit" id="work" data-ani="fadeInUp">My recent work</h2>
           <div class="swiper-container">
-            <div class="swiper-wrapper"><a class="swiper-slide bg01" href="" target="_blank">
+            <div class="swiper-wrapper"><a class="swiper-slide bg01" href="https://incredible-froyo-10de66.netlify.app/" target="_blank">
                 <div class="content">
                   <div class="project-name">
-                     Tfood<span>(order food)</span></div>
+                     Tfood<span>(REACT, REDUX, JSON SERVER)</span></div>
+                </div></a><a class="swiper-slide bg04" href="https://melodious-cranachan-f24fd6.netlify.app/" target="_blank">
+                <div class="content">
+                  <div class="project-name">
+                     Gymbase<span>(HTML, CSS, JQUERY)</span></div>
+                </div></a><a class="swiper-slide bg05" href="https://imaginative-baklava-d6eac4.netlify.app/" target="_blank">
+                <div class="content">
+                  <div class="project-name">
+                     TShop<span>(HTML, CSS, JQUERY)</span></div>
                 </div></a><a class="swiper-slide bg02" href="#contact">
                 <div class="content">
                   <div class="project-name">
-                     Edutoss<span>(study online)</span></div>
+                     Edutoss<span>(HTML, CSS, JQUERY)</span></div>
                 </div></a><a class="swiper-slide bg03" href="#contact">
                 <div class="content">
                   <div class="project-name">
-                     Liex<span>(dental management)</span></div>
+                     Liex<span>(HTML, CSS, JQUERY)</span></div>
                 </div></a>
             </div>
             <div class="swiper-pagination"></div>
@@ -452,10 +454,10 @@
             <li><a href="#contact" alt="contact"> <img src="./common_img/phone.svg" alt="contact"><span>contact</span></a></li>
           </ul>
           <ul class="menu-social">
-            <li><a href=""><img src="./common_img/icon_instagram.svg" alt="instagram"></a></li>
-            <li><a href=""><img src="./common_img/icon_twitter.svg" alt="twitter"></a></li>
-            <li><a href=""><img src="./common_img/icon_facebook.svg" alt="facebook"></a></li>
-            <li><a href=""><img src="./common_img/icon_youTube.svg" alt="youTube"></a></li>
+            <li><a href=""><img src="./common_img/icon_instagram.svg" alt=""></a></li>
+            <li><a href=""><img src="./common_img/icon_twitter.svg" alt=""></a></li>
+            <li><a href=""><img src="./common_img/icon_facebook.svg" alt=""></a></li>
+            <li><a href=""><img src="./common_img/icon_youTube.svg" alt=""></a></li>
           </ul>
           <p class="text_bottom">Terms of Service - Privacy Policy</p>
         </div>
